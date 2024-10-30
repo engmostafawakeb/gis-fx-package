@@ -52,37 +52,8 @@ Modify the properties of map objects during runtime, such as updating the locati
 
 ---
 
-## API Summary  
 
-### Classes  
-- **`MapView`**: Core class representing the map.  
-- **`ControlPanel`**: Customizable control panel.  
-- **`Marker`**: Represents a marker on the map.  
-- **`Polygon`**: Represents a polygon with multiple vertices.  
-- **`Circle`**: Represents a circle with a center and radius.  
-- **`Polyline`**: Represents a connected series of points forming a line.  
 
-### Key Methods  
-| Method                           | Description                                      |
-|----------------------------------|--------------------------------------------------|
-| `setProvider(MapProvider)`       | Set the map provider (e.g., Google, OpenStreetMap). |
-| `addMarker(Marker)`              | Add a marker to the map.                         |
-| `addPolygon(Polygon)`            | Add a polygon to the map.                        |
-| `setOnMarkerAdded(Consumer<Marker>)` | Track marker addition events.             |
-| `setOnShapeUpdated(Consumer<Shape>)` | Track shape updates.                     |
-
----
-
-## Installation  
-1. **Add the library to your project dependencies.**  
-2. **Ensure your project includes JavaFX** and any necessary map provider APIs (e.g., Google Maps API).  
-3. **Initialize the map in your application:**
-   ```java
-   WakebMapView view = new WakebMapView(MapProvider.GOOGLE, 7, 24.774265, 46.738586, bp);
-   view.addControlLayer(Color.DARKCYAN, Orientation.HORIZONTAL,"marker.png");
-   ```
-
----
 
 ## Conclusion  
 This JavaFX Maps package provides developers with a comprehensive toolkit to create interactive, feature-rich map applications. It supports multiple providers, customizable controls, event tracking, and real-time updates, making it suitable for use cases such as real-time tracking, route planning, and location-based services.
