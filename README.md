@@ -17,21 +17,18 @@ You can choose from several popular map providers:
 - **MapTiler Satellite**  
 - **Mapbox Satellite v9**  
 
-
-
 ---
 
 ### 2. Custom Control Panel  
 A **custom control panel** allows developers to manage map-related user actions and dynamically adjust map behavior.
 
 #### Control Panel Capabilities  
-- Show or hide zoom buttons  
-- Enable/disable drawing tools  
-- Switch between map providers  
+- Enable/disable control panal  
+- Update Marker Icons  
 
 ### 3. Interactive Map Shapes  
 The package allows adding and manipulating shapes dynamically during the application’s runtime. Supported shapes include:  
-- **Markers**: Pins or icons at specific locations  
+- **Markers**: icons at specific locations  
 - **Polygons**: Multi-point areas  
 - **Circles**: Defined by center and radius  
 - **Polylines**: Lines connecting multiple points  
@@ -42,17 +39,12 @@ Developers can track actions such as adding, updating, or deleting items on the 
 ### 5. Real-time Object Control  
 Modify the properties of map objects during runtime, such as updating the location or changing icons.
 
-#### Usage Example  
-
-
 ## Usage Scenarios  
-1. **Real-time Tracking:** Track moving objects by updating marker positions in real time.  
+1. **Real-time Tracking:** Track moving objects by updating marker positions or icons in real time.  
 2. **Custom Drawing Tools:** Allow users to draw zones, routes, or other shapes on the map.  
 3. **Dynamic Provider Switching:** Switch between different map providers based on context (e.g., terrain vs satellite view).
 
 ---
-
-
 
 
 ## Conclusion  
